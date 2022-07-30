@@ -1,0 +1,104 @@
+.our {
+    background-image: url('/img/Group 13.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: 135px;
+    background-size: 1111px 196px;
+}
+
+.our__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 78%;
+    margin: 0 auto;
+}
+
+.our__item {
+    width: 255px;
+    text-align: center;
+}
+
+
+.our__title {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+
+    color: #333D4B;
+}
+
+.our__text {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: center;
+
+    color: #333D4B;
+}
+
+@media screen and (max-width:1065px) {
+
+    .our {
+        background-size: 690px 120px;
+
+    }
+}
+
+
+@media screen and (max-width:992px) {
+
+    .our {
+        background-size: 690px 120px;
+
+    }
+    .our__item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    .our {
+        background-size: 375px 75px;
+
+    }
+    .our__list{
+        row-gap: 50px;
+    }
+    .our__item{
+        flex-direction: column;
+
+    }
+
+}
+
+@media screen and (max-width:365px) {
+
+    .our {
+        background-size: 375px 75px;
+
+    }
+    .our__list{
+        row-gap: 50px;
+    }
+    .our__item{
+        flex-direction: column;
+
+    }
+
+}
